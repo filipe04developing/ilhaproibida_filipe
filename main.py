@@ -1,6 +1,8 @@
 class Carta:
     class Alagamento:
-        pass
+        class PISTA_POUSO:
+            nome = "Pista de Pouso"
+            contagem = 0
 
     class Tesouro:
         class Terra:
@@ -14,7 +16,7 @@ class Carta:
             contagem = 0
         class Agua:
             nome = "O Cálice de Oceano"
-            contagem = 0
+            contagem=0
 
     class Aventureiro:
         class Explorador:
