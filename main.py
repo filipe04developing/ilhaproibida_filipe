@@ -14,20 +14,25 @@ class Carta:
             contagem = 0
         class Agua:
             nome = "O Cálice de Oceano"
-            contagem=0
+            contagem = 0
 
     class Aventureiro:
         class Explorador:
-            pass
+            nome = "Explorador"
+            contagem = 0
 
         class Piloto:
-            pass
+            nome = "Piloto"
+            contagem = 0
 
         class Engenheiro:
-            pass
+            nome = "Engenheiro"
+            contagem = 0
 
         class Mergulhador:
-            pass
+            nome = "Mergulhador"
+            contagem = 0
 
         class Navegador:
-            pass
+            nome = "Navegador"
+            contagem = 0
