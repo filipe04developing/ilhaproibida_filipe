@@ -1,3 +1,4 @@
+import random
 class Carta:
     class Alagamento:
         class PISTA_POUSO:
@@ -107,12 +108,12 @@ class Carta:
 class Terreno:
     class PISTA_POUSO:
         nome = "Pista de Pouso"
-        visual = '\U0001f681 '
+        visual = '\U0001f681'
         contagem = 0
 
     class PORTAO_BRONZE:
         nome = "Portão de Bronze"
-        visual = '\u2fa8🤎'
+        visual = '\u2fa8B'
         contagem = 0
     class PALACIO_CORAL:
         nome = "Palácio de Coral"
@@ -126,17 +127,17 @@ class Terreno:
 
     class PORTAO_OURO:
         nome = "Portão de Ouro"
-        visual = '\u2fa8💛'
+        visual = '\u2fa8O'
         contagem = 0
 
     class PORTAO_PRATA:
         nome = "Portão de Prata"
-        visual = '\u2fa8🩶'
+        visual = '\u2fa8P'
         contagem = 0
 
     class PORTAO_FERRO:
         nome = "Portão de Ferro"
-        visual = '\u2fa8🤍'
+        visual = '\u2fa8F'
         contagem = 0
 
     class ATALAIA:
@@ -211,26 +212,118 @@ class Terreno:
 
     class PONTE_SUSPENSA:
         nome = "Ponte Suspensa"
-        visual = "🌉🌉"
+        visual = "🌉"
         contagem = 0
 
     class LAGOA_PERDIDA:
         nome = "Lagoa Perdida"
         visual = "🏞️🏞️"
         contagem = 0
+
 class Ilha:
-    #Matriz 6x6
-    #Linhas
-    listaTerrenos = [Terreno.PISTA_POUSO.visual, Terreno.PORTAO_BRONZE.visual, Terreno.PALACIO_CORAL.visual, Terreno.VALE_TENEBROSO.visual, Terreno.PORTAO_OURO.visual, Terreno.PORTAO_PRATA.visual, Terreno.PORTAO_FERRO.visual, Terreno.ATALAIA.visual, Terreno.JARDIM_SUSSUROS.visual, Terreno.JARDIM_UIVOS.visual, Terreno.TEMPLO_SOL.visual, Terreno.TEMPLO_LUA.visual, Terreno.CAVERNA_LAVA.visual, Terreno.CAVERNA_SOMBRAS.visual, Terreno.OBSERVATORIO.visual, Terreno.PANTANO_BRUMAS.visual, Terreno.ROCHA_FANTASMA.visual, Terreno.PALACIO_MARES.visual, Terreno.PENEDO_BALDIO.visual, Terreno.BOSQUE_CARMESIM.visual,Terreno.DUNAS_ENGANO.visual,Terreno.PONTE_SUSPENSA.visual,Terreno.LAGOA_PERDIDA.visual]
-    linha1 = ["", "", "", "", "", ""]
-    linha2 = ["", "", "", "", "", ""]
-    linha3 = ["", "", "", "", "", ""]
-    linha4 = ["", "", "", "", "", ""]
-    linha5 = ["", "", "", "", "", ""]
-    linha6 = ["", "", "", "", "", ""]
-    matriz = [linha1,linha2,linha3,linha4,linha5,linha6]
+    Ter = [Terreno.PISTA_POUSO.visual, Terreno.PORTAO_BRONZE.visual, Terreno.PALACIO_CORAL.visual, Terreno.VALE_TENEBROSO.visual, Terreno.PORTAO_OURO.visual, Terreno.PORTAO_PRATA.visual, Terreno.PORTAO_FERRO.visual, Terreno.ATALAIA.visual, Terreno.JARDIM_SUSSUROS.visual, Terreno.JARDIM_UIVOS.visual, Terreno.TEMPLO_SOL.visual, Terreno.TEMPLO_LUA.visual, Terreno.CAVERNA_LAVA.visual, Terreno.CAVERNA_SOMBRAS.visual, Terreno.OBSERVATORIO.visual, Terreno.PANTANO_BRUMAS.visual, Terreno.ROCHA_FANTASMA.visual, Terreno.PALACIO_MARES.visual, Terreno.PENEDO_BALDIO.visual, Terreno.BOSQUE_CARMESIM.visual,Terreno.DUNAS_ENGANO.visual,Terreno.PONTE_SUSPENSA.visual,Terreno.LAGOA_PERDIDA.visual]
+    matriz = [["" for i in range(6)]for j in range(6)]
+    #Adicionando elementos
+    matriz[0][0] = "    "
+    matriz[0][1] = "    "
+    elemento = random.choice(Ter)
+    matriz[0][2] = elemento
+    Ter.remove(elemento)
+    elemento = random.choice(Ter)
+    matriz[0][3] = elemento
+    Ter.remove(elemento)
+    matriz[0][4] = "    "
+    matriz[0][5] = "    "
+    matriz[1][0] = "    "
+    elemento = random.choice(Ter)
+    matriz[1][1] = elemento
+    Ter.remove(elemento)
+    elemento = random.choice(Ter)
+    matriz[1][2] = elemento
+    Ter.remove(elemento)
+    elemento = random.choice(Ter)
+    matriz[1][3] = elemento
+    Ter.remove(elemento)
+    elemento = random.choice(Ter)
+    matriz[1][4] = elemento
+    Ter.remove(elemento)
+    matriz[1][5]="  "
+    elemento = random.choice(Ter)
+    matriz[2][0] = elemento
+    Ter.remove(elemento)
+    elemento = random.choice(Ter)
+    matriz[2][1] = elemento
+    Ter.remove(elemento)
+    elemento = random.choice(Ter)
+    matriz[2][2] = elemento
+    Ter.remove(elemento)
+    elemento = random.choice(Ter)
+    matriz[2][3] = elemento
+    Ter.remove(elemento)
+    elemento = random.choice(Ter)
+    matriz[2][4] = elemento
+    Ter.remove(elemento)
+    elemento = random.choice(Ter)
+    matriz[2][5] = elemento
+    Ter.remove(elemento)
+    elemento = random.choice(Ter)
+    matriz[3][0] = elemento
+    Ter.remove(elemento)
+    elemento = random.choice(Ter)
+    matriz[3][1] = elemento
+    Ter.remove(elemento)
+    elemento = random.choice(Ter)
+    matriz[3][2] = elemento
+    Ter.remove(elemento)
+    elemento = random.choice(Ter)
+    matriz[3][3] = elemento
+    Ter.remove(elemento)
+    elemento = random.choice(Ter)
+    matriz[3][4] = elemento
+    Ter.remove(elemento)
+    elemento = random.choice(Ter)
+    matriz[3][5] = elemento
+    Ter.remove(elemento)
+    matriz[4][0] = "    "
+    elemento = random.choice(Ter)
+    matriz[4][1] = elemento
+    Ter.remove(elemento)
+    elemento = random.choice(Ter)
+    matriz[4][2] = elemento
+    Ter.remove(elemento)
+    elemento = random.choice(Ter)
+    matriz[4][3] = elemento
+    Ter.remove(elemento)
+    elemento = random.choice(Ter)
+    matriz[4][4] = elemento
+    Ter.remove(elemento)
+    matriz[4][5] = "  "
+    matriz[5][0] = "    "
+    matriz[5][1] = "    "
+    elemento = random.choice(Ter)
+    matriz[5][2] = elemento
+    Ter.remove(elemento)
+    #elemento = random.choice(Ter)
+    #matriz[5][3] = elemento
+    #Ter.remove(elemento)
+    matriz[5][4]="  "
+    matriz[5][5]="  "
+
+
+
+    for i in range(6):
+        print(matriz[i])
+
+
+
 class Descarte:
     class Tesouro:
         pass
     class Alagamento:
         pass
+
+
+#Inserir na primeira linha, coluna 3
+#Remover o valor escolhido da lista Ilha.listaTerrenos
+
+oi = input()
