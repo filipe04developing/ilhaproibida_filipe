@@ -329,8 +329,4 @@ class Descarte:
     class Alagamento:
         pass
 
-
-#Inserir na primeira linha, coluna 3
-#Remover o valor escolhido da lista Ilha.listaTerrenos
-
 oi = input()
