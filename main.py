@@ -218,3 +218,19 @@ class Terreno:
         nome = "Lagoa Perdida"
         visual = "🏞️🏞️"
         contagem = 0
+class Ilha:
+    #Matriz 6x6
+    #Linhas
+    listaTerrenos = [Terreno.PISTA_POUSO.visual, Terreno.PORTAO_BRONZE.visual, Terreno.PALACIO_CORAL.visual, Terreno.VALE_TENEBROSO.visual, Terreno.PORTAO_OURO.visual, Terreno.PORTAO_PRATA.visual, Terreno.PORTAO_FERRO.visual, Terreno.ATALAIA.visual, Terreno.JARDIM_SUSSUROS.visual, Terreno.JARDIM_UIVOS.visual, Terreno.TEMPLO_SOL.visual, Terreno.TEMPLO_LUA.visual, Terreno.CAVERNA_LAVA.visual, Terreno.CAVERNA_SOMBRAS.visual, Terreno.OBSERVATORIO.visual, Terreno.PANTANO_BRUMAS.visual, Terreno.ROCHA_FANTASMA.visual, Terreno.PALACIO_MARES.visual, Terreno.PENEDO_BALDIO.visual, Terreno.BOSQUE_CARMESIM.visual,Terreno.DUNAS_ENGANO.visual,Terreno.PONTE_SUSPENSA.visual,Terreno.LAGOA_PERDIDA.visual]
+    linha1 = ["", "", "", "", "", ""]
+    linha2 = ["", "", "", "", "", ""]
+    linha3 = ["", "", "", "", "", ""]
+    linha4 = ["", "", "", "", "", ""]
+    linha5 = ["", "", "", "", "", ""]
+    linha6 = ["", "", "", "", "", ""]
+    matriz = [linha1,linha2,linha3,linha4,linha5,linha6]
+class Descarte:
+    class Tesouro:
+        pass
+    class Alagamento:
+        pass
