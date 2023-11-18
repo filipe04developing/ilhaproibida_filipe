@@ -107,91 +107,114 @@ class Carta:
 class Terreno:
     class PISTA_POUSO:
         nome = "Pista de Pouso"
-        visual = '\U0001f681\U0001f681'
+        visual = '\U0001f681 '
+        contagem = 0
 
     class PORTAO_BRONZE:
         nome = "Portão de Bronze"
-        visual = '\u2fa8\U0001f536'
+        visual = '\u2fa8🤎'
+        contagem = 0
     class PALACIO_CORAL:
         nome = "Palácio de Coral"
         visual = '\U0001f3f0💧'
+        contagem = 0
 
     class VALE_TENEBROSO:
         nome = "Vale Tenebroso"
         visual = '\U0001f332\U0001f47b'
+        contagem = 0
 
     class PORTAO_OURO:
         nome = "Portão de Ouro"
+        visual = '\u2fa8💛'
         contagem = 0
 
     class PORTAO_PRATA:
         nome = "Portão de Prata"
+        visual = '\u2fa8🩶'
         contagem = 0
 
     class PORTAO_FERRO:
         nome = "Portão de Ferro"
+        visual = '\u2fa8🤍'
         contagem = 0
 
     class ATALAIA:
         nome = "Atalaia"
+        visual = '\u265c '
         contagem = 0
 
     class JARDIM_SUSSUROS:
         nome = "Jardim dos Sussurros"
+        visual = '\u2698 '
         contagem = 0
 
     class JARDIM_UIVOS:
         nome = "Jardim dos Uivos"
+        visual = '\u2698\U0001f43a'
         contagem = 0
 
     class TEMPLO_SOL:
         nome = "Templo do Sol"
+        visual = "\uf90a\u263c"
         contagem = 0
 
     class TEMPLO_LUA:
         nome = "Templo da Lua"
+        visual = "\uf90a\u263e"
         contagem = 0
 
     class CAVERNA_LAVA:
         nome = "Caverna de Lava"
+        visual = '🏔️\U0001f525'
         contagem = 0
 
     class CAVERNA_SOMBRAS:
         nome = "Caverna das Sombras"
+        visual = "🏔️🏔️"
         contagem = 0
 
     class OBSERVATORIO:
         nome = "Observatório"
+        visual = "\u265c\U0001f52d"
         contagem = 0
 
     class PANTANO_BRUMAS:
         nome = "Pântano de Brumas"
+        visual = "🏞️\u2601"
         contagem = 0
 
     class ROCHA_FANTASMA:
         nome = "Rocha Fantasma"
+        visual = "🪨👻"
         contagem = 0
 
     class PALACIO_MARES:
         nome = "Palácio dos Mares"
+        visual = "\U0001f3f0🌊"
         contagem = 0
 
     class PENEDO_BALDIO:
         nome = "Penedo Baldio"
+        visual = ""
         contagem = 0
 
     class BOSQUE_CARMESIM:
         nome = "Bosque Carmesim"
+        visual = ""
         contagem = 0
 
     class DUNAS_ENGANO:
         nome = "Dunas do Engano"
+        visual = ""
         contagem = 0
 
     class PONTE_SUSPENSA:
         nome = "Ponte Suspensa"
+        visual = ""
         contagem = 0
 
     class LAGOA_PERDIDA:
         nome = "Lagoa Perdida"
+        visual = ""
         contagem = 0
