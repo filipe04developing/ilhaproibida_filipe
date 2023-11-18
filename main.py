@@ -104,3 +104,94 @@ class Carta:
         class Navegador:
             nome = "Navegador"
             contagem = 0
+class Terreno:
+    class PISTA_POUSO:
+        nome = "Pista de Pouso"
+        visual = '\U0001f681\U0001f681'
+
+    class PORTAO_BRONZE:
+        nome = "Portão de Bronze"
+        visual = '\u2fa8\U0001f536'
+    class PALACIO_CORAL:
+        nome = "Palácio de Coral"
+        visual = '\U0001f3f0💧'
+
+    class VALE_TENEBROSO:
+        nome = "Vale Tenebroso"
+        visual = '\U0001f332\U0001f47b'
+
+    class PORTAO_OURO:
+        nome = "Portão de Ouro"
+        contagem = 0
+
+    class PORTAO_PRATA:
+        nome = "Portão de Prata"
+        contagem = 0
+
+    class PORTAO_FERRO:
+        nome = "Portão de Ferro"
+        contagem = 0
+
+    class ATALAIA:
+        nome = "Atalaia"
+        contagem = 0
+
+    class JARDIM_SUSSUROS:
+        nome = "Jardim dos Sussurros"
+        contagem = 0
+
+    class JARDIM_UIVOS:
+        nome = "Jardim dos Uivos"
+        contagem = 0
+
+    class TEMPLO_SOL:
+        nome = "Templo do Sol"
+        contagem = 0
+
+    class TEMPLO_LUA:
+        nome = "Templo da Lua"
+        contagem = 0
+
+    class CAVERNA_LAVA:
+        nome = "Caverna de Lava"
+        contagem = 0
+
+    class CAVERNA_SOMBRAS:
+        nome = "Caverna das Sombras"
+        contagem = 0
+
+    class OBSERVATORIO:
+        nome = "Observatório"
+        contagem = 0
+
+    class PANTANO_BRUMAS:
+        nome = "Pântano de Brumas"
+        contagem = 0
+
+    class ROCHA_FANTASMA:
+        nome = "Rocha Fantasma"
+        contagem = 0
+
+    class PALACIO_MARES:
+        nome = "Palácio dos Mares"
+        contagem = 0
+
+    class PENEDO_BALDIO:
+        nome = "Penedo Baldio"
+        contagem = 0
+
+    class BOSQUE_CARMESIM:
+        nome = "Bosque Carmesim"
+        contagem = 0
+
+    class DUNAS_ENGANO:
+        nome = "Dunas do Engano"
+        contagem = 0
+
+    class PONTE_SUSPENSA:
+        nome = "Ponte Suspensa"
+        contagem = 0
+
+    class LAGOA_PERDIDA:
+        nome = "Lagoa Perdida"
+        contagem = 0
