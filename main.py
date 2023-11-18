@@ -120,31 +120,31 @@ class Terreno:
 
     class PORTAO_BRONZE:
         nome = "Portão de Bronze"
-        visual = '\u2fa8B'
+        visual = '\u2fa8 B'
         contagem = 0
     class PALACIO_CORAL:
         nome = "Palácio de Coral"
-        visual = '\U0001f3f0💧'
+        visual = '\U0001f3f0 💧'
         contagem = 0
 
     class VALE_TENEBROSO:
         nome = "Vale Tenebroso"
-        visual = '\U0001f332\U0001f47b'
+        visual = '\U0001f332 \U0001f47b'
         contagem = 0
 
     class PORTAO_OURO:
         nome = "Portão de Ouro"
-        visual = '\u2fa8O'
+        visual = '\u2fa8 O'
         contagem = 0
 
     class PORTAO_PRATA:
         nome = "Portão de Prata"
-        visual = '\u2fa8P'
+        visual = '\u2fa8 P'
         contagem = 0
 
     class PORTAO_FERRO:
         nome = "Portão de Ferro"
-        visual = '\u2fa8F'
+        visual = '\u2fa8 F'
         contagem = 0
 
     class ATALAIA:
@@ -159,27 +159,27 @@ class Terreno:
 
     class JARDIM_UIVOS:
         nome = "Jardim dos Uivos"
-        visual = '\u2698\U0001f43a'
+        visual = '\u2698 \U0001f43a'
         contagem = 0
 
     class TEMPLO_SOL:
         nome = "Templo do Sol"
-        visual = "\uf90a\u263c"
+        visual = "\uf90a \u263c"
         contagem = 0
 
     class TEMPLO_LUA:
         nome = "Templo da Lua"
-        visual = "\uf90a\u263e"
+        visual = "\uf90a \u263e"
         contagem = 0
 
     class CAVERNA_LAVA:
         nome = "Caverna de Lava"
-        visual = '🏔️\U0001f525'
+        visual = '🏔 ️ \U0001f525'
         contagem = 0
 
     class CAVERNA_SOMBRAS:
         nome = "Caverna das Sombras"
-        visual = "🏔️🏔️"
+        visual = "🏔 ️ 🏔 ️"
         contagem = 0
 
     class OBSERVATORIO:
@@ -189,17 +189,17 @@ class Terreno:
 
     class PANTANO_BRUMAS:
         nome = "Pântano de Brumas"
-        visual = "🏞️\u2601"
+        visual = "🏞  ️\u2601"
         contagem = 0
 
     class ROCHA_FANTASMA:
         nome = "Rocha Fantasma"
-        visual = "🪨👻"
+        visual = "🪨 👻"
         contagem = 0
 
     class PALACIO_MARES:
         nome = "Palácio dos Mares"
-        visual = "\U0001f3f0🌊"
+        visual = "\U0001f3f0 🌊"
         contagem = 0
 
     class PENEDO_BALDIO:
@@ -209,12 +209,12 @@ class Terreno:
 
     class BOSQUE_CARMESIM:
         nome = "Bosque Carmesim"
-        visual = "🌳❤️"
+        visual = "🌳 ❤️"
         contagem = 0
 
     class DUNAS_ENGANO:
         nome = "Dunas do Engano"
-        visual = "🫓🦴"
+        visual = "🫓 🦴"
         contagem = 0
 
     class PONTE_SUSPENSA:
@@ -224,7 +224,7 @@ class Terreno:
 
     class LAGOA_PERDIDA:
         nome = "Lagoa Perdida"
-        visual = "🏞️🏞️"
+        visual = "🏞 🏞"
         contagem = 0
 
 class Ilha:
@@ -328,5 +328,9 @@ class Descarte:
         pass
     class Alagamento:
         pass
+
+
+#Inserir na primeira linha, coluna 3
+#Remover o valor escolhido da lista Ilha.listaTerrenos
 
 oi = input()
