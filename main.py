@@ -3,6 +3,27 @@ class Carta:
         class PISTA_POUSO:
             nome = "Pista de Pouso"
             contagem = 0
+        class PORTAO_BRONZE:
+            nome = "Portão de Bronze"
+            contagem = 0
+        class PALACIO_CORAL:
+            nome = "Palácio de Coral"
+            contagem = 0
+        class VALE_TENEBROSO:
+            nome = "Vale Tenebroso"
+            contagem = 0
+        class PORTAO_OURO:
+            nome = "Portão de Ouro"
+            contagem = 0
+        class PORTAO_PRATA:
+            nome = "Portão de Prata"
+            contagem = 0
+        class PORTAO_FERRO:
+            nome = "Portão de Ferro"
+            contagem = 0
+        class ATALAIA:
+            nome = "Atalaia"
+            contagem = 0
 
     class Tesouro:
         class Terra:
