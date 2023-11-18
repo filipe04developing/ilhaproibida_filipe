@@ -196,25 +196,25 @@ class Terreno:
 
     class PENEDO_BALDIO:
         nome = "Penedo Baldio"
-        visual = ""
+        visual = "ㄱ "
         contagem = 0
 
     class BOSQUE_CARMESIM:
         nome = "Bosque Carmesim"
-        visual = ""
+        visual = "🌳❤️"
         contagem = 0
 
     class DUNAS_ENGANO:
         nome = "Dunas do Engano"
-        visual = ""
+        visual = "🫓🦴"
         contagem = 0
 
     class PONTE_SUSPENSA:
         nome = "Ponte Suspensa"
-        visual = ""
+        visual = "🌉🌉"
         contagem = 0
 
     class LAGOA_PERDIDA:
         nome = "Lagoa Perdida"
-        visual = ""
+        visual = "🏞️🏞️"
         contagem = 0
