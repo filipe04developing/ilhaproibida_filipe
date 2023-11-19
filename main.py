@@ -115,7 +115,7 @@ class Terreno:
         contagem = 0
     class PISTA_POUSO:
         nome = "Pista de Pouso"
-        visual = '\U0001f681'
+        visual = '\U0001f681 '
         contagem = 0
 
     class PORTAO_BRONZE:
@@ -226,7 +226,6 @@ class Terreno:
         nome = "Lagoa Perdida"
         visual = "🏞 🏞"
         contagem = 0
-
 class Ilha:
     Ter = [Terreno.PISTA_POUSO.visual, Terreno.PORTAO_COBRE.visual, Terreno.PORTAO_BRONZE.visual, Terreno.PALACIO_CORAL.visual, Terreno.VALE_TENEBROSO.visual, Terreno.PORTAO_OURO.visual, Terreno.PORTAO_PRATA.visual, Terreno.PORTAO_FERRO.visual, Terreno.ATALAIA.visual, Terreno.JARDIM_SUSSUROS.visual, Terreno.JARDIM_UIVOS.visual, Terreno.TEMPLO_SOL.visual, Terreno.TEMPLO_LUA.visual, Terreno.CAVERNA_LAVA.visual, Terreno.CAVERNA_SOMBRAS.visual, Terreno.OBSERVATORIO.visual, Terreno.PANTANO_BRUMAS.visual, Terreno.ROCHA_FANTASMA.visual, Terreno.PALACIO_MARES.visual, Terreno.PENEDO_BALDIO.visual, Terreno.BOSQUE_CARMESIM.visual,Terreno.DUNAS_ENGANO.visual,Terreno.PONTE_SUSPENSA.visual,Terreno.LAGOA_PERDIDA.visual]
     matriz = [["" for i in range(6)]for j in range(6)]
@@ -315,22 +314,14 @@ class Ilha:
     Ter.remove(elemento)
     matriz[5][4]="  "
     matriz[5][5]="  "
-
-
-
-    for i in range(6):
-        print(matriz[i])
-
-
-
 class Descarte:
     class Tesouro:
         pass
     class Alagamento:
         pass
-
-
+class Cartas:
+    Baralho = [Carta.Tesouro.Terra.nome, Carta.Tesouro.Agua.nome, Carta.Tesouro.Fogo.nome , Carta.Tesouro.Vento.nome, Carta.Aventureiro.Piloto.nome,Carta.Aventureiro.Navegador.nome, Carta.Aventureiro.Engenheiro.nome, Carta.Aventureiro.Explorador.nome, Carta.Aventureiro.Mergulhador.nome]
 #Inserir na primeira linha, coluna 3
 #Remover o valor escolhido da lista Ilha.listaTerrenos
-
-oi = input()
+    for i in range(6):
+        print(Ilha.matriz[i])
